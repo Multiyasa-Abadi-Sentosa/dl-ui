@@ -1,9 +1,9 @@
 module.exports =  [
     {
-        route: '/expedition/purchasing-document-expedition',
-        name: 'purchasing-document-expedition',
-        moduleId: './modules/expedition/purchasing-document-expedition/index',
-        nav: true,
+        route: '/expedition/purchasing-to-verification',
+        name: 'purchasing-to-verification',
+        moduleId: './modules/expedition/purchasing-to-verification/index',
+        nav: false,
         title: 'Ekspedisi Penyerahan ke Verifikasi',
         auth: true,
         settings: {
