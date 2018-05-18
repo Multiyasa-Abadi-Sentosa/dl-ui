@@ -3,7 +3,7 @@ module.exports =  [
         route: '/expedition/purchasing-to-verification',
         name: 'purchasing-to-verification',
         moduleId: './modules/expedition/purchasing-to-verification/index',
-        nav: true,
+        nav: false,
         title: 'Ekspedisi Penyerahan ke Verifikasi',
         auth: true,
         settings: {

@@ -3,7 +3,7 @@ module.exports = [
         route: 'Migration',
         name: 'Migration Log',
         moduleId: './modules/migration-log/monitoring-migration-log/index',
-        nav: true,
+        nav: false,
         title: 'Migration-Log',
         auth: true,
         settings: {

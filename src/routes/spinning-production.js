@@ -3,7 +3,7 @@ module.exports = [
         route: 'production/spinning/yarn-output-production',
         name: 'yarn-output-production',
         moduleId: './modules/production/spinning/yarn-output-production/index',
-        nav: true,
+        nav: false,
         title: 'Output Produksi Winder',
         auth: true,
         settings: {
@@ -16,7 +16,7 @@ module.exports = [
         route: 'production/spinning/spinning-input',
         name: 'spinning-input-production',
         moduleId: './modules/production/spinning/spinning-input/index',
-        nav: true,
+        nav: false,
         title: 'Input Produksi Winder',
         auth: true,
         settings: {
@@ -29,7 +29,7 @@ module.exports = [
         route: 'production/spinning/yarn-output-production-report',
         name: 'yarn-output-productions-report',
         moduleId: './modules/production/spinning/reports/yarn-output-productions-report/index',
-        nav: true,
+        nav: false,
         title: 'Laporan Output Produksi Winder',
         auth: true,
         settings: {
@@ -42,7 +42,7 @@ module.exports = [
         route: 'production/spinning/spinning-input-report',
         name: 'spinning-input-production-report',
         moduleId: './modules/production/spinning/spinning-input-report/index',
-        nav: true,
+        nav: false,
         title: 'Laporan Input Produksi Winder',
         auth: true,
         settings: {
