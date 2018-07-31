@@ -30,10 +30,10 @@ export async function configure(aurelia) {
         }
       }
 
-      var core = "https://mas-core-api-uat.mybluemix.net/v1/";
-      var auth = "https://mas-auth-api-uat.mybluemix.net/v1/";
-      var production = "https://mas-production-webapi-uat.mybluemix.net/v1/";
-      var purchasing = "https://mas-purchasing-webapi-uat.mybluemix.net/v1/";
+      var core = "https://mas-core-api-uat.azurewebsites.net/v1/";
+      var auth = "https://mas-auth-api-uat.azurewebsites.net/v1/";
+      var production = "https://mas-production-webapi-uat.azurewebsites.net/v1/";
+      var purchasing = "https://mas-purchasing-webapi-uat.azurewebsites.net/v1/";
       var purchasingAzure = "https://com-danliris-service-purchasing-uat.azurewebsites.net/v1/";
       var garmentPurchasing = "https://mas-purchasing-garment-webapi-uat.mybluemix.net/v1/";
       var inventory = "https://mas-inventory-webapi-uat.mybluemix.net/v1/";
