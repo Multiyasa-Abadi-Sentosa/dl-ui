@@ -8,5 +8,5 @@ export default {
     authTokenType: "Bearer",
     accessTokenProp: "data",
 
-    storageChangedReload: true
+    storageChangedReload: true,
 };
