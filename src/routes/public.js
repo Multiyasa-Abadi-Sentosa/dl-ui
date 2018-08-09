@@ -3,7 +3,7 @@ module.exports = [
         route: 'login',
         name: 'login',
         moduleId: './login',
-        nav: true,
+        nav: false,
         title: 'login'
     },
     {

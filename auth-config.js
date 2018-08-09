@@ -1,11 +1,11 @@
 export default {
     endpoint: "auth",
-    configureEndpoints: ["auth", "core", "production", "purchasing", "garment-purchasing", "inventory", "inventory-azure", "garment-master-plan", "int-purchasing"],
+   configureEndpoints: ["auth", "core", "production", "purchasing","garment-purchasing","inventory","garment-master-plan"],
 
     loginUrl: "authenticate",
     profileUrl: "/me",
 
-    authTokenType: "Bearer",
+    authTokenType: "JWT",
     accessTokenProp: "data",
 
     storageChangedReload: true

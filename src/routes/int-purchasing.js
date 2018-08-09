@@ -3,7 +3,7 @@ module.exports = [
         route: '/int-purchasing/transfer-request',
         name: 'transfer-request',
         moduleId: './modules/int-purchasing/transfer-request/index',
-        nav: true,
+        nav: false,
         title: 'Transfer Request',
         auth: true,
         settings: {
@@ -16,7 +16,7 @@ module.exports = [
         route: '/int-purchasing/transfer-request-report',
         name: 'transfer-request-report',
         moduleId: './modules/int-purchasing/transfer-request-report/index',
-        nav: true,
+        nav: false,
         title: 'Laporan Transfer Request',
         auth: true,
         settings: {
@@ -29,7 +29,7 @@ module.exports = [
         route: ['int-purchasing/internal-transfer-order'],
         name: 'internal-transfer-order',
         moduleId: './modules/int-purchasing/internal-transfer-order/index',
-        nav: true,
+        nav: false,
         title: 'Transfer Order Internal',
         auth: true,
         settings: {
@@ -42,7 +42,7 @@ module.exports = [
         route: ['int-purchasing/internal-transfer-order-report'],
         name: 'internal-transfer-order',
         moduleId: './modules/int-purchasing/internal-transfer-order-report/index',
-        nav: true,
+        nav: false,
         title: 'Laporan Transfer Order Internal',
         auth: true,
         settings: {
@@ -55,7 +55,7 @@ module.exports = [
         route: '/int-purchasing/external-transfer-order',
         name: 'external-transfer-order',
         moduleId: './modules/int-purchasing/external-transfer-order/index',
-        nav: true,
+        nav: false,
         title: 'Transfer Order Eksternal',
         auth: true,
         settings: {
@@ -69,7 +69,20 @@ module.exports = [
         route: ['int-purchasing/transfer-delivery-order'],
         name: 'transfer-delivery-order',
         moduleId: './modules/int-purchasing/transfer-delivery-order/index',
-        nav: true,
+        nav: false,
+        title: 'DO',
+        auth: true,
+        settings: {
+            group: "int-purchasing",
+            permission: { "C5": 1, "C9": 1 },
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: ['int-purchasing/transfer-shipping-order'],
+        name: 'transfer-shipping-order',
+        moduleId: './modules/int-purchasing/transfer-shipping-order/index',
+        nav: false,
         title: 'Surat Jalan',
         auth: true,
         settings: {
@@ -79,4 +92,3 @@ module.exports = [
         }
     },
 ]
-
