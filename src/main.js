@@ -34,13 +34,27 @@ export async function configure(aurelia) {
       var auth = "https://mas-auth-api-uat.azurewebsites.net/v1/";
       var production = "https://mas-production-webapi-uat.azurewebsites.net/v1/";
       var purchasing = "https://mas-purchasing-webapi-uat.azurewebsites.net/v1/";
+      var purchasingAzure = "https://com-danliris-service-purchasing-uat.azurewebsites.net/v1/";
+      var garmentPurchasing = "https://mas-purchasing-garment-webapi-uat.mybluemix.net/v1/";
       var inventory = "https://mas-inventory-webapi-uat.mybluemix.net/v1/";
+      var inventoryAzure = "https://com-danliris-service-inventory-uat.azurewebsites.net/v1/";
+      var garmentMasterPlan = "https://mas-garment-master-plan-webapi-uat.mybluemix.net/v1/";
+      var spinning = "https://com-danliris-service-spinning-uat.azurewebsites.net/v1/";
+      var intPurchasing = "https://com-danliris-service-internal-transfer-uat.azurewebsites.net/v1/";
+      var customsReport = "https://com-danliris-service-support-uat.azurewebsites.net/v1/";
 
       config.registerEndpoint('auth', auth);
       config.registerEndpoint('core', core);
       config.registerEndpoint('production', production, defaultConfig);
       config.registerEndpoint('purchasing', purchasing, defaultConfig);
+      config.registerEndpoint('purchasing-azure', purchasingAzure, defaultConfig);
+      config.registerEndpoint('garment-purchasing', garmentPurchasing, defaultConfig);
       config.registerEndpoint('inventory', inventory, defaultConfig);
+      config.registerEndpoint('inventory-azure', inventoryAzure, defaultConfig);
+      config.registerEndpoint('garment-master-plan', garmentMasterPlan, defaultConfig);
+      config.registerEndpoint('spinning', spinning, defaultConfig);
+      config.registerEndpoint('int-purchasing', intPurchasing, defaultConfig);
+      config.registerEndpoint('customs-report', customsReport, defaultConfig);
     })
     .plugin("aurelia-authentication", baseConfig => {
       baseConfig.configure(authConfig);
