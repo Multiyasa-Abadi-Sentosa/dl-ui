@@ -78,15 +78,15 @@ module.exports = [
         }
     },
     {
-        route: 'garment-buyers',
-        name: 'garment-buyers',
+        route: 'buyers',
+        name: 'buyers',
         moduleId: './modules/master/garment-buyer/index',
         nav: true,
-        title: 'Buyer Garment',
+        title: 'Buyer',
         auth: true,
         settings: {
             group: "master",
-            permission: { "C9": 1, "A2": 1 },
+            permission: { "C9": 1, "A2": 1, "U11": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -242,7 +242,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "master",
-            permission: { "C9": 1 },
+            permission: { "C9": 1, "U11": 1 },
             iconClass: 'fa fa-dashboard'
         }
 
