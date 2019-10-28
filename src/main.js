@@ -30,7 +30,8 @@ export async function configure(aurelia) {
         }
       }
 
-      var core = "https://com-danliris-service-core-dev.azurewebsites.net/v1/";
+      //var core = "https://com-danliris-service-core-dev.azurewebsites.net/v1/";
+      var core = "https://com-mas-service-core-dev.azurewebsites.net/v1/";
       //var auth = "https://mas-auth-api.azurewebsites.net/v1/";
       var auth = "https://mas-auth-api-dev.azurewebsites.net/v1/";
       var production = "https://dl-production-webapi-dev.azurewebsites.net/v1/";
@@ -39,7 +40,8 @@ export async function configure(aurelia) {
       var purchasingAzure = "https://com-danliris-service-purchasing-dev.azurewebsites.net/v1/";
       var garmentPurchasing = "https://dl-purchasing-garment-webapi-dev.azurewebsites.net/v1/";
       var inventory = "https://dl-inventory-webapi-dev.azurewebsites.net/v1/";
-      var inventoryAzure = "https://com-danliris-service-inventory-dev.azurewebsites.net/v1/";
+      //var inventoryAzure = "https://com-danliris-service-inventory-dev.azurewebsites.net/v1/";
+      var inventoryAzure = "https://com-mas-service-inventory-dev.azurewebsites.net/v1/";
       var garmentMasterPlan = "https://dl-garment-master-plan-webapi-dev.azurewebsites.net/v1/";
       var spMasterPlan = "https://dl-sp-master-plan-webapi-dev.mybluemix.net/v1/";
       var spinning = "https://com-danliris-service-spinning-dev.azurewebsites.net/";
@@ -48,6 +50,7 @@ export async function configure(aurelia) {
       var merchandiser = "https://com-danliris-service-md.azurewebsites-dev.net/v1/";
       const dealTracking = 'https://com-danliris-service-deal-tracking-dev.azurewebsites.net/v1/';
       //const sales = "https://com-danliris-service-sales-dev.azurewebsites.net/v1/";
+      //const sales = "http://localhost:59269/v1/";
       const sales = "https://com-mas-sales-dev.azurewebsites.net/v1/";
       var weaving = "https://com-danliris-service-weaving-dev.azurewebsites.net/";
       var finance = "https://com-danliris-service-finance-accounting-dev.azurewebsites.net/v1/";
