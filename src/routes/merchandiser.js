@@ -8,7 +8,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -21,7 +21,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -34,7 +34,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator',
             type: "MD1"
         }
@@ -48,7 +48,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator',
             type: "MD2"
         }
@@ -62,7 +62,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator',
             type: "PPIC"
         }
@@ -76,7 +76,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -89,7 +89,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator',
             type: "md"
         }
@@ -103,7 +103,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator',
             type: "ie"
         }
@@ -117,7 +117,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -130,7 +130,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -143,7 +143,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -156,7 +156,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -169,7 +169,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -182,7 +182,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -195,7 +195,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -208,7 +208,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -221,7 +221,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C9": 1 },
+            //permission: { "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -234,7 +234,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -247,7 +247,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: { "C5": 1, "C9": 1 },
+            //permission: { "C5": 1, "C9": 1 },
             iconClass: 'fa fa-calculator'
         }
     },
@@ -260,7 +260,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "merchandiser",
-            permission: {"C9": 1},
+            //permission: {"C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     }
