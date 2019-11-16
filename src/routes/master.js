@@ -199,7 +199,7 @@ module.exports = [
         name: 'currencies',
         moduleId: './modules/master/currency/index',
         nav: true,
-        title: 'Mata Uang Tekstil',
+        title: 'Mata Uang',
         auth: true,
         settings: {
             group: "master",
