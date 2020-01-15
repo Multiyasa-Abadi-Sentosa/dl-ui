@@ -216,7 +216,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "master",
-            //permission: { "U11": 1 },
+            permission: { "U11": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
