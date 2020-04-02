@@ -183,9 +183,9 @@ module.exports = [
       }
   },
   {
-      route: '/garment-master-plan/monitorinmaster-plan',
-      name: 'monitorinmaster-plan',
-      moduleId: './modules/garment-master-plan/monitorinmaster-plan/index',
+      route: '/garment-master-plan/monitoring-master-plan',
+      name: 'monitoring-master-plan',
+      moduleId: './modules/garment-master-plan/monitoring-master-plan/index',
       nav: true,
       title: 'Report Master Plan',
       auth: true,
