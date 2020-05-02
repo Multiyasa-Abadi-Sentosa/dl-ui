@@ -7,8 +7,8 @@ module.exports = [
         title: 'Maksimal WH Confirm',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "U18": 1, "C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "U18": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -20,8 +20,8 @@ module.exports = [
         title: 'Standard Minute Value',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "IE": 1,"C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "IE": 1,"C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -33,9 +33,8 @@ module.exports = [
         title: 'Standard Minute Value',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
-            ////permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -47,8 +46,8 @@ module.exports = [
         title: 'Master Seksi',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1, "IE": 1, "C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1, "IE": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -60,8 +59,8 @@ module.exports = [
         title: 'Komoditi',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1, "IE": 1, "C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1, "IE": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -73,9 +72,9 @@ module.exports = [
         title: 'Komoditi',
         auth: true,
         settings: {
-            group: "g-master-plan",
+            group: "master-plan",
 
-            //permission: { "PGA": 1, "C9": 1, "U11":1 },
+            permission: { "PGA": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -87,7 +86,7 @@ module.exports = [
     //     title: 'Standar Jam Kerja',
     //     auth: true,
     //     settings: {
-    //         group: "g-master-plan",
+    //         group: "master-plan",
     //         //permission: { "C5": 1, "C9": 1 },
     //         iconClass: 'fa fa-dashboard'
     //     }
@@ -100,7 +99,7 @@ module.exports = [
     //     title: 'Master Style',
     //     auth: true,
     //     settings: {
-    //         group: "g-master-plan",
+    //         group: "master-plan",
     //         //permission: { "C5": 1, "C9": 1 },
     //         iconClass: 'fa fa-dashboard'
     //     }
@@ -113,8 +112,8 @@ module.exports = [
         title: 'Booking Order',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -126,8 +125,8 @@ module.exports = [
         title: 'Booking Order Expired',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -139,7 +138,7 @@ module.exports = [
         title: 'Monitoring Booking Order',
         auth: true,
         settings: {
-            group: "g-master-plan",
+            group: "master-plan",
             //permission: { "PGA": 1, "U18": 1, "IE": 1,"C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
@@ -152,8 +151,8 @@ module.exports = [
         title: 'Master Minggu',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "U18": 1,"C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "U18": 1,"C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -165,8 +164,8 @@ module.exports = [
         title: 'Blocking Plan Sewing',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "U18": 1, "C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "U18": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -178,8 +177,8 @@ module.exports = [
       title: 'Monitoring Remaining EH',
       auth: true,
       settings: {
-          group: "g-master-plan",
-          //permission:  {"PGA": 1, "U18": 1, "IE": 1,"C9": 1, "U11":1 },
+          group: "master-plan",
+          permission: { "PGA": 1, "U18": 1, "IE": 1,"C9": 1, "U11":1 },
           iconClass: 'fa fa-dashboard'
       }
   },
@@ -191,8 +190,8 @@ module.exports = [
       title: 'Report Master Plan',
       auth: true,
       settings: {
-          group: "g-master-plan",
-          //permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
+          group: "master-plan",
+          permission: { "PGA": 1, "U18": 1,"C9": 1, "U11":1 },
           iconClass: 'fa fa-dashboard'
       }
   },
@@ -205,8 +204,8 @@ module.exports = [
         title: 'Monitoring Order Diterima dan Booking',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1,"U18": 1,"IE": 1,"C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1,"U18": 1,"IE": 1,"C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -219,8 +218,8 @@ module.exports = [
         title: 'Monitoring Canceled Booking Order',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1,"U18": 1, "IE": 1, "C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1,"U18": 1, "IE": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -233,8 +232,8 @@ module.exports = [
         title: 'Monitoring Keterlambatan Jadwal Pengerjaan',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1,"U18": 1, "IE": 1, "C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1,"U18": 1, "IE": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -247,8 +246,8 @@ module.exports = [
         title: 'Monitoring Jadwal Pengerjaan Per Week',
         auth: true,
         settings: {
-            group: "g-master-plan",
-            //permission: { "PGA": 1,"U18": 1, "IE": 1, "C9": 1, "U11":1 },
+            group: "master-plan",
+            permission: { "PGA": 1,"U18": 1, "IE": 1, "C9": 1, "U11":1 },
             iconClass: 'fa fa-dashboard'
         }
     }
