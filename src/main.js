@@ -39,7 +39,7 @@ export async function configure(aurelia) {
       //var purchasing = "https://dl-purchasing-webapi-dev.azurewebsites-dev.net/v1/";
       //var purchasingAzure = "https://com-danliris-service-purchasing-dev.azurewebsites.net/v1/";
       //var purchasingAzure = "http://localhost:51508/v1/";
-      var purchasingAzure = "http://com-mas-service-purchasing.azurewebsites.net/v1/";
+      var purchasingAzure = "https://com-mas-service-purchasing-dev.azurewebsites.net/v1/";
       //var garmentPurchasing = "https://dl-purchasing-garment-webapi-dev.azurewebsites.net/v1/";
       //var inventory = "https://dl-inventory-webapi-dev.azurewebsites.net/v1/";
       //var inventoryAzure = "https://com-danliris-service-inventory-dev.azurewebsites.net/v1/";
@@ -57,7 +57,7 @@ export async function configure(aurelia) {
       //var weaving = "https://com-danliris-service-weaving-dev.azurewebsites.net/";
       //var finance = "https://com-danliris-service-finance-accounting-dev.azurewebsites.net/v1/";
       //var finance = "http://localhost:57995/v1/";
-      var finance = "http://com-mas-service-finance-accounting-dev.azurewebsites.net/v1/";
+      var finance = "https://com-mas-service-finance-accounting-dev.azurewebsites.net/v1/";
       //var garmentProduction = "https://com-danliris-service-garment-dev.azurewebsites.net/";
 
       config.registerEndpoint('auth', auth);
