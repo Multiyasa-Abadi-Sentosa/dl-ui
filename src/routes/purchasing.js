@@ -8,7 +8,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
+            permission: {"U11" : 1 ,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -21,7 +21,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -34,7 +34,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C5": 1, "C9": 1, "B1": 1, "B4": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C5": 1, "C9": 1, "B1": 1, "B4": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -47,7 +47,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C5": 1, "C9": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C5": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -60,7 +60,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C5": 1, "C9": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C5": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -73,7 +73,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -83,11 +83,11 @@ module.exports = [
         name: 'receipt-spb-monitoring',
         moduleId: './modules/purchasing/unit-before-spb-monitoring/index',
         nav: true,
-        title: 'Monitoring Bon Belum Terima SPB',
+        title: 'Monitoring Bon Belum Buat SPB',
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -100,7 +100,124 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'vb-non-po-request',
+        name: 'vb-non-po-request',
+        moduleId: './modules/purchasing/vb-non-po-request/index',
+        nav: true,
+        title: 'Permohonan VB Non PO',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'vb-with-po-request',
+        name: 'vb-with-po-request',
+        moduleId: './modules/purchasing/vb-with-po-request/index',
+        nav: true,
+        title: 'Permohonan VB dengan PO',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'cashier-approval',
+        name: 'cashier-approval',
+        moduleId: './modules/purchasing/cashier-approval/index',
+        nav: true,
+        title: 'Approval Kasir',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1, "P1": 7, "P3": 7, "P4": 7, "P6": 7, "P7": 7, "PI": 7, "PG": 7, "PK": 7, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'realization-vb-non-po',
+        name: 'realization-vb-non-po',
+        moduleId: './modules/purchasing/realization-vb-non-po/index',
+        nav: true,
+        title: 'Realisasi VB non PO',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'realization-vb-with-po',
+        name: 'realization-vb-with-po',
+        moduleId: './modules/purchasing/realization-vb-with-po/index',
+        nav: true,
+        title: 'Realisasi VB dengan PO',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'clearance-vb',
+        name: 'clearance-vb',
+        moduleId: './modules/purchasing/clearance-vb/index',
+        nav: true,
+        title: 'Clearance VB',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "B9": 1, "B4": 1, "C5": 1, "C9": 1 },
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'verification-vb',
+        name: 'verification-vb',
+        moduleId: './modules/purchasing/verification-vb/index',
+        nav: true,
+        title: 'Verifikasi VB',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'vb-status-report',
+        name: 'vb-status-report',
+        moduleId: './modules/purchasing/reports/vb-status-report/index',
+        nav: true,
+        title: 'Laporan Status VB',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "B9": 1, "B4": 1, "C5": 1, "C9": 1 },
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'vb-expedition-realitation-report',
+        name: 'vb-expedition-realitation-report',
+        moduleId: './modules/purchasing/reports/vb-expedition-realitation-report/index',
+        nav: true,
+        title: 'Laporan Ekspedisi Realisasi VB',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "B9": 1, "B4": 1, "C5": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -113,7 +230,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 7, "P3": 7, "P4": 7, "P6": 7, "P7": 7, "PI": 7, "PG": 7, "PK": 7, "C9": 1},
+            permission: { "U11" : 1,"P1": 7, "P3": 7, "P4": 7, "P6": 7, "P7": 7, "PI": 7, "PG": 7, "PK": 7, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -126,7 +243,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 7, "P3": 7, "P4": 7, "P6": 7, "P7": 7, "PI": 7, "PG": 7, "PK": 7, "C9": 1, "B1": 1, "B4": 1, "C5": 1},
+            permission: { "U11" : 1,"P1": 7, "P3": 7, "P4": 7, "P6": 7, "P7": 7, "PI": 7, "PG": 7, "PK": 7, "C9": 1, "B1": 1, "B4": 1, "C5": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -139,7 +256,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
+            permission: { "U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -152,7 +269,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
+            permission: { "U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -165,7 +282,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -178,7 +295,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -191,7 +308,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1, "C5": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -204,7 +321,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -217,7 +334,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -230,7 +347,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -243,7 +360,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "S4": 1, "C3": 1, "E": 1, "K": 1, "S1": 1, "S2": 1, "S3": 1, "U1": 1, "F1": 1, "F2": 1, "L3": 1, "LK": 1, "L8": 1, "L2": 1, "C2": 1, "A2": 1, "C1": 1, "B5": 1, "L1": 1, "B4": 1, "B3": 1, "C4": 1, "OJ": 1, "C9": 1, "A1": 1, "B9": 1, "A4": 1, "C5": 1, "P1A": 1, "C2A": 1, "C2B": 1, "FP": 1, "PI": 1, "P": 1, "FC": 1, "GU": 1, "GS": 1, "PG": 1, "C1A": 1, "C1B": 1, "KK": 1, "B1": 1,"W1": 1, "W2": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -256,7 +373,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            ////permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
+            //permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -269,7 +386,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: { "U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },    
@@ -282,7 +399,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1},
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -295,7 +412,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -308,7 +425,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -321,7 +438,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -334,7 +451,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1},
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1, "B1": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -347,7 +464,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"C9" : 1 },
+            permission: {"U11" : 1,"C9" : 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -360,7 +477,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -373,7 +490,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -386,7 +503,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -399,7 +516,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
+            permission: { "U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -412,7 +529,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1,"W1": 1, "W2": 1, "B1": 1, "C5": 1 },
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1,"W1": 1, "W2": 1, "B1": 1, "C5": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -425,7 +542,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -438,7 +555,20 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: { "B1": 1, "C9": 1},
+            permission: {"U11" : 1, "B1": 1, "C9": 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PK": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: 'report/local-valas-purchasing-book-report',
+        name: 'local-valas-purchasing-book-report',
+        moduleId: './modules/purchasing/reports/local-valas-purchasing-book-report/index',
+        nav: true,
+        title: 'Laporan Buku Pembelian Lokal Valas',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: { "U11" : 1,"B1": 1, "C9": 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PK": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -451,7 +581,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"B1": 1, "C9": 1},
+            permission: {"U11" : 1, "B1": 1, "C9": 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PK": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -464,7 +594,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            ////permission: { "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "B9": 1, "C9": 1},
+            //permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "B9": 1, "C9": 1},
             iconClass: 'fa fa-dashboard'
         }
     },
@@ -477,7 +607,20 @@ module.exports = [
         auth: true,
         settings: {
             group: "purchasing",
-            //permission: {"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            permission: {"U11" : 1,"P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "C9": 1},
+            iconClass: 'fa fa-dashboard'
+        }
+    },
+    {
+        route: '/expedition/reports/unit-payment-order-paid-status-report',
+        name: 'unit-payment-order-paid-status',
+        moduleId: './modules/expedition/reports/unit-payment-order-paid-status-report/index',
+        nav: true,
+        title: 'Laporan Status Bayar SPB',
+        auth: true,
+        settings: {
+            group: "purchasing",
+            permission: {"U11" : 1, "P1": 1, "P3": 1, "P4": 1, "P6": 1, "P7": 1, "PI": 1, "PG": 1, "PK": 1, "B9": 1, "B4": 1, "C5": 1, "C9": 1 },
             iconClass: 'fa fa-dashboard'
         }
     },
