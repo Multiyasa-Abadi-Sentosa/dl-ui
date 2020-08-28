@@ -46,7 +46,7 @@ export async function configure(aurelia) {
       //var customsReport = "https://com-danliris-service-support.azurewebsites.net/v1/";
       //var merchandiser = "https://com-danliris-service-md.azurewebsites-dev.net/v1/";
       //const dealTracking = 'https://com-danliris-service-deal-tracking-dev.azurewebsites.net/v1/';
-      const sales = "https://com-mas-service-sales.azurewebsites.net/v1/";
+      const salesAzure = "https://com-mas-service-sales.azurewebsites.net/v1/";
       //var weaving = "https://com-danliris-service-weaving.azurewebsites.net/";
       //var finance = "https://com-danliris-service-finance-accounting.azurewebsites.net/v1/";
       //var garmentProduction = "https://com-danliris-service-garment-dev.azurewebsites.net/";
@@ -66,7 +66,7 @@ export async function configure(aurelia) {
       //config.registerEndpoint('customs-report', customsReport, defaultConfig);
       //config.registerEndpoint('merchandiser', merchandiser, defaultConfig);
       //config.registerEndpoint('deal-tracking', dealTracking, defaultConfig);
-      config.registerEndpoint('sales', sales, defaultConfig);
+      config.registerEndpoint('sales', salesAzure, defaultConfig);
       //config.registerEndpoint('weaving', weaving, defaultConfig);
       //config.registerEndpoint('finance', finance, defaultConfig);
       //config.registerEndpoint('garment-production', garmentProduction, defaultConfig);
