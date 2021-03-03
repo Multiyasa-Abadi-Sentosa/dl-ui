@@ -44,7 +44,16 @@
               read-only.bind="readOnly"
               options.bind="controlOptions">
           </au-textbox>
-  
+
+          <au-textbox 
+              label="No. PO Buyer" 
+              value.bind="data.noPOBuyer" 
+              error.bind="error.noPOBuyer"
+              placeholder="masukkan No PO Buyer" 
+              read-only.bind="readOnly"
+              options.bind="controlOptions">
+          </au-textbox>
+
           <au-dropdown
               label="Status"
               value.bind="data.type"
@@ -63,6 +72,19 @@
               loader.bind="storageLoader"
               text.bind = "storageView"
               placeholder="cari penyimpanan" 
+              key="_id" 
+              read-only.bind="readOnly"
+              options.bind="controlOptions">
+          </au-autocomplete>
+
+          <au-autocomplete 
+              value.bind="selectedbuyer" 
+              error.bind="error.buyerId"
+              label="Buyer" 
+              change.delegate="selectedbuyerChanged($event)" 
+              loader.bind="buyerLoader"
+              text.bind = "buyerView"
+              placeholder="cari Buyer" 
               key="_id" 
               read-only.bind="readOnly"
               options.bind="controlOptions">

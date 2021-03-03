@@ -1,6 +1,7 @@
 import { inject, bindable, containerless, computedFrom, BindingEngine } from 'aurelia-framework'
 import { Service } from "./service";
 var StorageLoader = require('../../../loader/storage-loader');
+var BuyerLoader = require('../../../loader/garment-buyers-loader');
 
 @containerless()
 @inject(Service, BindingEngine)
@@ -32,6 +33,9 @@ export class DataForm {
         if (this.data.storageId) {
             this.selectedStorage = await this.service.getStorageById(this.data.storageId, this.storageFields);
         }
+        if (this.data.buyerId){
+            this.selectedbuyer = await this.service.getBuyerById(this.data.buyerId, this.storageFields);
+        }
     }
 
     @computedFrom("data._id")
@@ -62,14 +66,35 @@ export class DataForm {
         }
     }
 
+    @bindable selectedbuyer;
+    selectedbuyerChanged(newValue, oldValue) {
+        if (this.selectedbuyer && this.selectedbuyer.Id) {
+            this.data.buyerId = this.selectedbuyer.Id;
+            this.data.buyerCode = this.selectedbuyer.Code;
+            this.data.buyerName = this.selectedbuyer.Name;
+        }
+        else {
+            this.data.storageId = 0;
+            this.data.storageCode = "";
+            this.data.storageName = "";
+        }
+    }
+
     storageView = (storage) => {
         return `${storage.unit.name} - ${storage.name}`
+    }
+
+    buyerView = (buyer) => {
+        return `${buyer.Name}`
     }
 
     get storageLoader() {
         return StorageLoader;
     }
 
+    get buyerLoader(){
+        return BuyerLoader;
+    }
 
     get addItems() {
         return (event) => {
