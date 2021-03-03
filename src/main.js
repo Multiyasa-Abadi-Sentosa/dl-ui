@@ -30,15 +30,15 @@ export async function configure(aurelia) {
         }
       }
 
-      var core = "https://com-mas-service-core-dev.azurewebsites.net/v1/";
-      var auth = "https://mas-auth-api-dev.azurewebsites.net/v1/";
+      var core = "https://com-mas-service-core.azurewebsites.net/v1/";
+      var auth = "https://mas-auth-webapi-prd-bearer.azurewebsites.net/v1/";
       //var production = "https://dl-production-webapi.azurewebsites.net/v1/";
       //var productionAzure = "https://com-danliris-service-finishing-printing.azurewebsites.net/v1/";
       //var purchasing = "https://dl-purchasing-webapi.azurewebsites.net/v1/";
-      var purchasingAzure = "https://com-mas-service-purchasing-dev.azurewebsites.net/v1/";
+      var purchasingAzure = "https://com-mas-service-purchasing.azurewebsites.net/v1/";
       //var garmentPurchasing = "https://dl-purchasing-garment-webapi.azurewebsites.net/v1/";
       //var inventory = "https://dl-inventory-webapi.azurewebsites.net/v1/";
-      var inventoryAzure = "https://com-mas-service-inventory-dev.azurewebsites.net/v1/";
+      var inventoryAzure = "https://com-mas-service-inventory.azurewebsites.net/v1/";
       //var garmentMasterPlan = "https://dl-garment-master-plan-webapi.azurewebsites.net/v1/";
       //var spMasterPlan = "https://dl-sp-master-plan-webapi-dev.mybluemix.net/v1/";
       //var spinning = "https://com-danliris-service-spinning.azurewebsites.net/";
@@ -46,9 +46,9 @@ export async function configure(aurelia) {
       //var customsReport = "https://com-danliris-service-support.azurewebsites.net/v1/";
       //var merchandiser = "https://com-danliris-service-md.azurewebsites-dev.net/v1/";
       //const dealTracking = 'https://com-danliris-service-deal-tracking-dev.azurewebsites.net/v1/';
-      const sales = "https://com-mas-service-sales-dev.azurewebsites.net/v1/";
+      const sales = "https://com-mas-service-sales.azurewebsites.net/v1/";
       //var weaving = "https://com-danliris-service-weaving.azurewebsites.net/";
-      var finance = "https://com-mas-service-finance-accounting-dev.azurewebsites.net/v1/";
+      var finance = "https://com-mas-service-finance-accounting.azurewebsites.net/v1/";
       //var garmentProduction = "https://com-danliris-service-garment-dev.azurewebsites.net/";
 
       config.registerEndpoint('auth', auth);
