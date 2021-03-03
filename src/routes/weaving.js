@@ -104,19 +104,6 @@ module.exports = [
     }
   },
   {
-    route: "weaving/master-defect",
-    name: "master-defect",
-    moduleId: "./modules/weaving/master-defect/index",
-    nav: true,
-    title: "Master Cacat Kain",
-    auth: true,
-    settings: {
-      group: "weaving",
-      //permission: { W1: 1, W2: 1, "*": 1 },
-      iconClass: "fa fa-dashboard"
-    }
-  },
-  {
     route: "weaving/master-operator",
     name: "master-operator",
     moduleId: "./modules/weaving/master-operator/index",
@@ -187,6 +174,19 @@ module.exports = [
     moduleId: "./modules/weaving/machine-planning/index",
     nav: true,
     title: "Perencanaan Mesin",
+    auth: true,
+    settings: {
+      group: "weaving",
+      //permission: { W1: 1, W2: 1, "*": 1 },
+      iconClass: "fa fa-dashboard"
+    }
+  },
+  {
+    route: "weaving/beam-monitoring",
+    name: "beam-monitoring",
+    moduleId: "./modules/weaving/beam-monitoring/index",
+    nav: true,
+    title: "Pemantauan Beam",
     auth: true,
     settings: {
       group: "weaving",
@@ -291,19 +291,6 @@ module.exports = [
     moduleId: "./modules/weaving/daily-operation-reaching-tying/index",
     nav: true,
     title: "Operasional Mesin Harian Reaching/ Tying",
-    auth: true,
-    settings: {
-      group: "weaving",
-      //permission: { W1: 1, W2: 1, "*": 1 },
-      iconClass: "fa fa-dashboard"
-    }
-  },
-  {
-    route: "weaving/fabric-defect-report",
-    name: "fabric-defect-report",
-    moduleId: "./modules/weaving/fabric-defect-report/index",
-    nav: true,
-    title: "Laporan Cacat Kain",
     auth: true,
     settings: {
       group: "weaving",

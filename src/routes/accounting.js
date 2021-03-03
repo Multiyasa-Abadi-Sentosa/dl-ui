@@ -8,6 +8,7 @@ module.exports = [
         auth: true,
         settings: {
             group: "accounting",
+
             permission: {"U11": 1, "B1": 1, "C9": 1 },
             iconClass: 'fa fa-clone'
         }
@@ -180,6 +181,7 @@ module.exports = [
             permission: {"U11": 1, "B1": 1, "C9": 1 },
             iconClass: 'fa fa-clone'
         }
+
     },
     {
         route: 'garment-daily-purchase-order/reports',
@@ -193,5 +195,6 @@ module.exports = [
             permission: {"U11": 1, "B1": 1, "C9": 1 },
             iconClass: 'fa fa-clone'
         }
+
     }
 ];
