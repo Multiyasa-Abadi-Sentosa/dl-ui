@@ -35,7 +35,7 @@ export async function configure(aurelia) {
       //var production = "https://dl-production-webapi.azurewebsites.net/v1/";
       //var productionAzure = "https://com-danliris-service-finishing-printing.azurewebsites.net/v1/";
       //var purchasing = "https://dl-purchasing-webapi.azurewebsites.net/v1/";
-      //var purchasingAzure = "https://com-danliris-service-purchasing.azurewebsites.net/v1/";
+      var purchasingAzure = "https://com-mas-service-purchasing-dev.azurewebsites.net/v1/";
       //var garmentPurchasing = "https://dl-purchasing-garment-webapi.azurewebsites.net/v1/";
       //var inventory = "https://dl-inventory-webapi.azurewebsites.net/v1/";
       var inventoryAzure = "https://com-mas-service-inventory-dev.azurewebsites.net/v1/";
